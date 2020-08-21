@@ -1,0 +1,558 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.fondo-index
+{
+    background: url(../img/fondo-index.jpg) no-repeat top center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.fondo-reserva
+{
+    background-color: burlywood;
+}
+
+
+/* Barra menu */
+
+.menu-contenedor
+{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 25px 8%;
+    background-color: black;
+
+}
+
+.logo
+{
+    cursor: pointer;
+    align-items: flex-start;
+}
+
+.menu-links
+{
+    list-style: none;
+}
+
+.menu-links li
+{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.menu-links li a
+{
+    font-family: 'Barlow Condensed';
+    font-weight: 500;
+    font-size: 25px;
+    text-decoration: none;
+    color: white;
+    transition: all 0.3 ease 0s;
+}
+
+.menu-links li a:hover
+{
+    color: chocolate;
+}
+
+/* Fin Barra menu */
+
+.cuerpo-contacto
+{
+    width: 100%;
+    height: 45;
+    background: black;
+    margin: 30%;
+}
+
+/* Inicio footer html */
+footer
+{
+    font-family: 'Barlow Condensed';   
+    width: 100%;
+    height: 55vh;
+    background: black;
+}
+
+.footer-contenedor
+{
+    display: flex;
+}
+
+.footer-contenedor .caja
+{
+    flex-basis: 50%;
+    padding: 40px;
+}
+
+.caja h2
+{
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: chocolate;
+    text-align: left;
+}
+
+.caja .contenido
+{
+    margin-top: 20px;
+}
+
+.contenido span
+{
+    color: black;
+}
+
+.contenido .lugar span
+{
+    color: white;
+}
+
+.contenido .telefono span
+{
+    color: white;
+}
+
+.contenido .email span
+{
+    color: white;
+}
+
+.contenido p
+{
+    color: white;
+    text-align: justify;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.contenido .texto
+{
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    
+}
+
+.contenido .lugar .telefono .email
+{
+    color: white;
+}
+
+.contenido li
+{
+    list-style: none;
+}
+
+.contenido li a
+{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+}
+
+.contenido li a:hover
+{
+    color: chocolate;
+}
+
+.primer .contenido .social
+{
+    margin-top: 20px;
+}
+
+.primer .contenido .social a
+{
+    padding: 0 2px;
+}
+
+.primer .contenido .social a span
+{
+    height: 40px;
+    width: 40px;
+    background: white;
+    line-height: 40px;
+    text-align: center;
+    font-size: 30px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.primer .contenido .social a span:hover
+{
+    background-color: chocolate;
+}
+
+
+/* Fin footer html */
+
+
+/* Inicio index html */
+
+.index-cuerpo
+{
+    font-family: 'Barlow Condensed';
+    font-weight: 400;
+    color: aliceblue;    
+}
+.index-contenedor
+{
+    text-align: center;
+    padding: 5% 20%;
+    justify-content: center;
+    align-items: center;
+}
+
+.index-contenedor .text-peq-inicio
+{
+    color: chocolate;
+    font-size: 25px;
+    padding: 10px;
+}
+
+.index-contenedor .text-grand-inicio
+{
+    font-size: 75px;
+    padding: 8px;
+}
+
+.index-contenedor .index-boton
+{
+    padding: 50px;
+}
+
+.index-contenedor .index-boton a
+{
+    padding: 30px;
+    border: 2px solid chocolate;
+    text-transform:  uppercase;
+    color: white;
+    font-weight: 600;
+    font-size: 35px;
+    text-decoration: none;    
+    transition: .1s;
+    overflow: hidden;
+}
+
+.index-contenedor .index-boton a:hover
+{
+    border: white;
+    color: chocolate;
+}
+
+/* Fin index html */
+
+/* Inicio reserva html */
+.reserva-titulo
+{
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Barlow Condensed';
+}
+.reserva-titulo p
+{
+    font-weight: 600;
+    font-size: 25px;
+    color: white;    
+}
+
+.reserva-titulo h2
+{
+    font-weight: 900;
+    font-size: 55px;
+    color: black;    
+}
+
+.reserva-contenedor
+{
+    position: absolute;
+    top: 60%;
+    transform: translateY(-50%);
+    width: 100%;
+    padding: 0 20px;
+}
+
+.formulario-contacto
+{
+    max-width: 550px;
+    margin: 0 auto;
+    background:rgba(0, 0, 0, 0.8);
+    padding: 30px;
+    border-radius: 5px;
+    display: flex;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+}
+
+.input-campo
+{
+    display: flex;
+    flex-direction: column;
+    margin-right: 4%;    
+}
+.input-campo, .mensaje-campo
+{
+    width: 48%;
+    margin-top: 18px;
+}
+
+.input-campo, .input, .mensaje-campo textarea
+{
+    font-family: 'Barlow Condensed';
+    font-weight: 600;
+    font-size: 20px;
+    margin: 10px 0;
+    background: transparent;
+    border: 0;
+    border-bottom: 2px solid chocolate;
+    padding: 10px;
+    color: chocolate;
+    width: 100%;
+}
+
+.mensaje-campo textarea
+{
+    height: 212px;
+}
+
+::-webkit-input-placeholder
+{
+    color: chocolate;    
+}
+
+::-moz-input-placeholder
+{
+    color: chocolate;    
+}
+
+::-ms-input-placeholder
+{
+    color: chocolate;    
+}
+
+.boton-reserva
+{
+    font-family: 'Barlow Condensed';
+    font-weight: 600;
+    font-size: 20px;
+    background: white;
+    text-align: center;
+    padding: 15px;
+    border-radius: 5px;
+    color: chocolate;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.boton-reserva:hover
+{
+    background-color: chocolate;
+    color: white;
+}
+
+
+/* Fin reserva html */
+
+/* Inicio servicios html */
+
+.tarjeta-cuerpo
+{
+    width: 100vw;
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+
+}
+
+.tarjeta-contenedor
+{
+    display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: 210px 210px 80px;
+    grid-template-areas: "imagen" "texto" "precio";
+    font-family: 'Barlow Condensed';
+    border-radius: 18px;
+    background: chocolate;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.8);
+    text-align: center;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+.tarjeta-contenedor:hover
+{
+    transform: scale(1.06);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.8);
+}
+
+.tarjeta-imagen
+{
+    grid-area: imagen;
+    background: url(../img/servicio-1.jpg);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-size: cover;
+}
+
+
+.tarjeta-texto
+{
+    grid-area: texto;
+    margin: 25px;
+}
+
+
+.tarjeta-texto .titulo
+{
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.tarjeta-texto p
+{
+    color: white;
+    font-weight: 300;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.tarjeta-texto h2
+{
+    color: black;
+    font-weight: 800;
+    font-size: 35px;
+}
+
+.tarjeta-precio
+{
+    grid-area: precio;
+}
+
+
+
+.tarjeta-precio h2
+{
+    margin-top: 10px;
+    background: white;
+    color: chocolate;
+    font-weight: 800;
+    font-size: 35px;
+}
+
+/* Fin servicios html */
+
+/* Inicio nosotros html */
+
+.nosotros
+{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    border: 2px solid #0000;    
+}
+.nosotros .tarjeta:last-child
+{
+    border-right: none;
+}
+
+.nosotros .tarjeta
+{
+    position: relative;
+    height: 100%;
+    flex: 1;
+    border-right: 2px solid #000;
+    overflow: hidden;
+    transition: 0.5s ease-in-out;
+}
+.nosotros .tarjeta:hover
+{
+    flex-grow:5;
+}
+
+/* Imagenes */
+
+.nosotros .tarjeta:nth-child(1)
+{
+    background-image: url(../img/nosotros-1.jpg);
+    background-position: center center;
+
+}
+
+.nosotros .tarjeta:nth-child(2)
+{
+    background-image: url(../img/nosotros-2.jpg);
+    background-position: center center;
+}
+
+.nosotros .tarjeta:nth-child(3)
+{
+    background-image: url(../img/nosotros-3.jpg);
+    background-position: center center;
+}
+
+.nosotros .tarjeta:nth-child(4)
+{
+    background-image: url(../img/nosotros-4.jpg);
+    background-position: center center;
+}
+
+.nosotros .tarjeta:nth-child(5)
+{
+    background-image: url(../img/nosotros-5.jpg);
+    background-position: center center;
+}
+/* Fin de imagenes*/
+
+.nosotros .tarjeta .contenido
+{
+    font-family: 'Barlow Condensed';
+    font-weight: 500;
+    font-size: 20px;   
+    position: absolute;
+    bottom: 0;
+    margin: 40px;
+    padding: 30px;
+    color: chocolate;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0s;
+    transform: translateY(100px);
+}
+
+.nosotros .tarjeta:hover .contenido
+{
+    visibility: visible;
+    opacity: 0.8;
+    transition: 0.5s;
+    transform: translateY(0);
+}
+
+/* Fin nosotros html */
+
+
+@media screen and (max-width: 600px)
+{
+    .formulario-contacto
+    {
+        flex-direction: column;        
+    }
+    .mensaje-campo textarea
+    {
+        height: 80px;
+    }
+    .input-campo, .mensaje-campo
+    {
+        width: 100%;
+    }
+}
