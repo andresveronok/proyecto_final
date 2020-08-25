@@ -1,0 +1,25 @@
+{
+  "name": "budapest",
+  "version": "1.0.0",
+  "description": "Barberia",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andresveronok/proyecto_final.git"
+  },
+  "author": "andres veron",
+  "license": "ISC",
+  "build-css": "node-sass --include-path scss sass/style.scss css/style.css",
+  "watch-css": "nodemon -e scss -x \"npm run build-css\"",
+  "bugs": {
+    "url": "https://github.com/andresveronok/proyecto_final/issues"
+  },
+  "homepage": "https://github.com/andresveronok/proyecto_final#readme",
+  "devDependencies": {
+    "node-sass": "^4.14.1",
+    "nodemon": "^2.0.4"
+  }
+}
